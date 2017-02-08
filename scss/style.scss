@@ -1,0 +1,31 @@
+// Layout by lastGrade
+// lastgrade.github.io
+// Licensed under MIT Open Source
+
+@import "settings";
+@import "foundation";
+
+.main{	
+	  position: absolute;
+	  width: 1100px;
+	  height: 200px;
+	  z-index: 15;
+	  top: 50%;
+	  left: 50%;
+	  margin: -100px 0 0 -550px;
+	  //background: red;
+}
+
+@media only screen and (max-width: 768px) {
+	.main{	
+		  position: relative;
+		  width: auto;
+		  height: auto;
+		  z-index: 15;
+		  top: 0;
+		  left: 0;		  
+		  margin: 16px;
+		  //background: red;
+	}
+
+}
