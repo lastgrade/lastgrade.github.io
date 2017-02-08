@@ -1,6 +1,5 @@
 /node_modules/*
 /docs/*
-/.git/*
 /.sass-cache/*
 *.DS_Store
 /stylesheets/*
